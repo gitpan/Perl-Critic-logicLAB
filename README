@@ -1,0 +1,28 @@
+NAME
+    Perl::Critic::logicLAB - a set of Perl::Critic policies implemented and
+    used by logicLAB
+
+SYNOPSIS
+SEE ALSO
+    * Perl::Critic
+    * Task
+
+RESOURCES
+    * Homepage/Wiki: http://logiclab.jira.com/wiki/display/PCLL/Home
+    * Bugtracker:
+    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-logicLAB
+    * Repository: http://logicLAB.jira.com/svn/PCLL
+    * Project Changelog:
+    http://logiclab.jira.com/browse/PCLL#selectedTab=com.atlassian.jira.plug
+    in.system.project%3Achangelog-panel
+    * Project Site: http://logicLAB.jira.com/browse/PCLL
+
+AUTHOR
+    Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
+
+COPYRIGHT & LICENSE
+    Copyright 2010 Jonas B. Nielsen (jonasbn), All Rights Reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

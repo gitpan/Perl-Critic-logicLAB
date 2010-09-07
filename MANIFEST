@@ -1,0 +1,5 @@
+Build.PL
+lib/Perl/Critic/logicLAB.pm
+MANIFEST			This list of files
+README
+META.yml
