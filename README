@@ -2,11 +2,50 @@ NAME
     Perl::Critic::logicLAB - a set of Perl::Critic policies implemented and
     used by logicLAB
 
+VERSION
+    This documentation describes version 0.02
+
 SYNOPSIS
+        % perlcritic --theme logiclab
+
+DESCRIPTION
+    Perl::Critic::logicLAB is not a distribution of policies, it is more of
+    a meta-package, implemented like the Task distributions.
+
+    This is not the recommended way of doing things, but it does offer the
+    following benefits:
+
+    * Policies can be released separately
+    * Policies can be released without association with
+    Perl::Critic::logicLAB until their value and correctness has been
+    asserted
+    * You can write a meta-package, listing the policies you want on a
+    policy by policy level, using the same schema
+POLICIES
+    Currently Perl::Critic::logicLAB consists of the following policies.
+
+    * Perl::Critic::Policy::logicLAB::ProhibitUseLib
+    * Perl::Critic::Policy::logicLAB::RequireVersionFormat
+CONFIGURATION
+    Please see the separate polices for configuration.
+
+DEPENDENCIES AND REQUIREMENTS
+    None currently.
+
+INCOMPATIBILITIES
+    This distribution holds no known incompatibilities.
+
+BUGS AND LIMITATIONS
+    The distribution has no known bugs or limitations.
+
+BUG REPORTING
+    Please use Requets Tracker for bug reporting:
+
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-logicLAB
+
 SEE ALSO
     * Perl::Critic
     * Task
-
 RESOURCES
     * Homepage/Wiki: http://logiclab.jira.com/wiki/display/PCLL/Home
     * Bugtracker:
@@ -16,7 +55,6 @@ RESOURCES
     http://logiclab.jira.com/browse/PCLL#selectedTab=com.atlassian.jira.plug
     in.system.project%3Achangelog-panel
     * Project Site: http://logicLAB.jira.com/browse/PCLL
-
 AUTHOR
     Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
 

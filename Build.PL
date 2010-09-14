@@ -1,6 +1,6 @@
 # Build.PL for Perl::Critic::logicLAB
 
-# $Id: Build.PL 7149 2010-09-01 11:52:05Z jonasbn $
+# $Id: Build.PL 7249 2010-09-14 13:59:35Z jonasbn $
 
 use strict;
 use warnings;

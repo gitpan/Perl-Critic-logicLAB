@@ -1,6 +1,6 @@
 package Perl::Critic::logicLAB;
 
-# $Id: JONASBN.pm 7149 2010-09-01 11:52:05Z jonasbn $
+# $Id: logicLAB.pm 7249 2010-09-14 13:59:35Z jonasbn $
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
@@ -10,7 +10,7 @@ use strict;
 use vars qw{$VERSION};
 
 BEGIN {
-    $VERSION = '0.01';
+    $VERSION = '0.02';
 }
 
 1;
@@ -23,7 +23,67 @@ __END__
 
 Perl::Critic::logicLAB - a set of Perl::Critic policies implemented and used by logicLAB
 
+=head1 VERSION
+
+This documentation describes version 0.02
+
 =head1 SYNOPSIS
+
+    % perlcritic --theme logiclab
+
+=head1 DESCRIPTION
+
+Perl::Critic::logicLAB is not a distribution of policies, it is more of a
+meta-package, implemented like the L<Task> distributions.
+
+This is not the recommended way of doing things, but it does offer the following
+benefits:
+
+=over
+
+=item * Policies can be released separately
+
+=item * Policies can be released without association with Perl::Critic::logicLAB
+until their value and correctness has been asserted
+
+=item * You can write a meta-package, listing the policies you want on a policy
+by policy level, using the same schema
+
+=back
+
+=head1 POLICIES
+
+Currently Perl::Critic::logicLAB consists of the following policies.
+
+=over
+
+=item * L<Perl::Critic::Policy::logicLAB::ProhibitUseLib>
+
+=item * L<Perl::Critic::Policy::logicLAB::RequireVersionFormat>
+
+=back
+
+=head1 CONFIGURATION
+
+Please see the separate polices for configuration.
+
+=head1 DEPENDENCIES AND REQUIREMENTS
+
+None currently.
+
+=head1 INCOMPATIBILITIES
+
+This distribution holds no known incompatibilities.
+
+=head1 BUGS AND LIMITATIONS
+
+The distribution has no known bugs or limitations.
+
+=head1 BUG REPORTING
+
+Please use Requets Tracker for bug reporting:
+
+    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-logicLAB
 
 =head1 SEE ALSO
 
