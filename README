@@ -21,11 +21,13 @@ DESCRIPTION
     asserted
     * You can write a meta-package, listing the policies you want on a
     policy by policy level, using the same schema
+
 POLICIES
     Currently Perl::Critic::logicLAB consists of the following policies.
 
     * Perl::Critic::Policy::logicLAB::ProhibitUseLib
     * Perl::Critic::Policy::logicLAB::RequireVersionFormat
+
 CONFIGURATION
     Please see the separate polices for configuration.
 
@@ -46,6 +48,7 @@ BUG REPORTING
 SEE ALSO
     * Perl::Critic
     * Task
+
 RESOURCES
     * Homepage/Wiki: http://logiclab.jira.com/wiki/display/PCLL/Home
     * Bugtracker:
@@ -55,6 +58,7 @@ RESOURCES
     http://logiclab.jira.com/browse/PCLL#selectedTab=com.atlassian.jira.plug
     in.system.project%3Achangelog-panel
     * Project Site: http://logicLAB.jira.com/browse/PCLL
+
 AUTHOR
     Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
 

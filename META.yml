@@ -3,8 +3,8 @@ abstract: 'a set of Perl::Critic policies implemented and used by logicLAB'
 author:
   - 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>'
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  Module::Build::Bundle: 0.02
+generated_by: 'Module::Build::Bundle version 0.02'
 license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -13,7 +13,7 @@ name: Perl-Critic-logicLAB
 provides:
   Perl::Critic::logicLAB:
     file: lib/Perl/Critic/logicLAB.pm
-    version: 0.02
+    version: 0.03
 requires:
   Perl::Critic::Policy::logicLAB::ProhibitUseLib: 0
   Perl::Critic::Policy::logicLAB::RequireVersionFormat: 0
@@ -25,4 +25,4 @@ resources:
   homepage: http://logiclab.jira.com/wiki/display/PCLL/Home
   license: http://www.perlfoundation.org/artistic_license_1_0
   repository: http://logicLAB.jira.com/svn/PCLL
-version: 0.02
+version: 0.03

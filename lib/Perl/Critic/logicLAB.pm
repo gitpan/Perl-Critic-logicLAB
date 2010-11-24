@@ -1,6 +1,6 @@
 package Perl::Critic::logicLAB;
 
-# $Id: logicLAB.pm 7249 2010-09-14 13:59:35Z jonasbn $
+# $Id: logicLAB.pm 7363 2010-11-24 20:09:46Z jonasbn $
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
@@ -10,7 +10,7 @@ use strict;
 use vars qw{$VERSION};
 
 BEGIN {
-    $VERSION = '0.02';
+    $VERSION = '0.03';
 }
 
 1;

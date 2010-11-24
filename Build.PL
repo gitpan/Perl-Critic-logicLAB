@@ -1,14 +1,14 @@
 # Build.PL for Perl::Critic::logicLAB
 
-# $Id: Build.PL 7249 2010-09-14 13:59:35Z jonasbn $
+# $Id: Build.PL 7283 2010-09-19 08:45:49Z jonasbn $
 
 use strict;
 use warnings;
-use Module::Build;
+use Module::Build::Bundle;
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
 
-my $build = Module::Build->new(
+my $build = Module::Build::Bundle->new(
     dist_author   => 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>',
     module_name   => 'Perl::Critic::logicLAB',
     license       => 'artistic',
@@ -30,5 +30,7 @@ my $build = Module::Build->new(
         }
     },
 );
+
+$build->notes('section_header' => 'POLICIES');
 
 $build->create_build_script();
