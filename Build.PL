@@ -1,12 +1,12 @@
 # Build.PL for Perl::Critic::logicLAB
 
-# $Id: Build.PL 7283 2010-09-19 08:45:49Z jonasbn $
+# $Id: Build.PL 7593 2011-04-16 18:22:31Z jonasbn $
 
 use strict;
 use warnings;
 use Module::Build::Bundle;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my $build = Module::Build::Bundle->new(
     dist_author   => 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>',
@@ -14,8 +14,9 @@ my $build = Module::Build::Bundle->new(
     license       => 'artistic',
     create_readme => 1,
     requires      => {
-		'Perl::Critic::Policy::logicLAB::ProhibitUseLib' => '0',
-		'Perl::Critic::Policy::logicLAB::RequireVersionFormat' => '0',
+        'Perl::Critic::Policy::logicLAB::ProhibitUseLib'        => '0',
+        'Perl::Critic::Policy::logicLAB::RequireVersionFormat'  => '0',
+        'Perl::Critic::Policy::logicLAB::ProhibitShellDispatch' => '0',
     },
     meta_merge => {
         resources => {
@@ -31,6 +32,6 @@ my $build = Module::Build::Bundle->new(
     },
 );
 
-$build->notes('section_header' => 'POLICIES');
+$build->notes( 'section_header' => 'POLICIES' );
 
 $build->create_build_script();

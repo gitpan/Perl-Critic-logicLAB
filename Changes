@@ -1,6 +1,10 @@
 Changes file for Perl::Critic::logicLAB
 
-$Id: Changes 7362 2010-11-24 20:09:09Z jonasbn $
+$Id: Changes 7365 2010-11-24 20:22:35Z jonasbn $
+
+Project site changelog:
+
+http://logicLAB.jira.com/browse/PCLL#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
 Version 0.03, 24. Nov. 2011, update recommended
 
