@@ -3,7 +3,7 @@ NAME
     used by logicLAB
 
 VERSION
-    This documentation describes version 0.04
+    This documentation describes version 0.05
 
 SYNOPSIS
         % perlcritic --theme logiclab
@@ -15,17 +15,26 @@ DESCRIPTION
     This is not the recommended way of doing things, but it does offer the
     following benefits:
 
-    * Policies can be released separately
-    * Policies can be released without association with
-    Perl::Critic::logicLAB until their value and correctness has been
-    asserted
-    * You can write a meta-package, listing the policies you want on a
-    policy by policy level, using the same schema
+    *   Policies can be released separately
+
+    *   Policies can be released without association with
+        Perl::Critic::logicLAB until their value and correctness has been
+        asserted
+
+    *   You can write a meta-package, listing the policies you want on a
+        policy by policy level, using the same schema
 
 POLICIES
-    * Perl::Critic::Policy::logicLAB::ProhibitShellDispatch
-    * Perl::Critic::Policy::logicLAB::ProhibitUseLib
-    * Perl::Critic::Policy::logicLAB::RequireVersionFormat
+    *   Perl::Critic::Policy::logicLAB::ProhibitShellDispatch
+
+    *   Perl::Critic::Policy::logicLAB::ProhibitUseLib
+
+    *   Perl::Critic::Policy::logicLAB::RequireSheBang
+
+    *   Perl::Critic::Policy::logicLAB::RequireVersionFormat
+
+SEE ALSO
+    *   <http://logiclab.jira.com/wiki/display/PCLL/Home>
 
 COPYRIGHT & LICENSE
     Copyright 2010-2011 Jonas B. Nielsen (jonasbn), All Rights Reserved.
