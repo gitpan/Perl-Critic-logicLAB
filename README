@@ -33,9 +33,6 @@ POLICIES
 
     *   Perl::Critic::Policy::logicLAB::RequireVersionFormat
 
-SEE ALSO
-    *   <http://logiclab.jira.com/wiki/display/PCLL/Home>
-
 COPYRIGHT & LICENSE
     Copyright 2010-2011 Jonas B. Nielsen (jonasbn), All Rights Reserved.
 

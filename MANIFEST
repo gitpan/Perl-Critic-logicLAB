@@ -2,7 +2,9 @@ Build.PL
 Changes
 lib/Perl/Critic/logicLAB.pm
 MANIFEST			This list of files
+META.json
 META.yml
 README
 t/00-load.t
 t/pod.t
+Makefile.PL

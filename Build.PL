@@ -1,17 +1,18 @@
 # Build.PL for Perl::Critic::logicLAB
 
-# $Id: Build.PL 7657 2011-05-03 09:53:46Z jonasbn $
+# $Id: Build.PL 7714 2011-06-08 21:46:01Z jonasbn $
 
 use strict;
 use warnings;
 use Module::Build::Bundle;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 my $build = Module::Build::Bundle->new(
     dist_author   => 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>',
     module_name   => 'Perl::Critic::logicLAB',
     license       => 'artistic',
+    create_makefile_pl => 'traditional',
     create_readme => 1,
     requires      => {
         'Perl::Critic::Policy::logicLAB::ProhibitUseLib'        => '0',
