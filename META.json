@@ -4,7 +4,7 @@
       "Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build::Bundle version 0.02, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "artistic_1"
    ],
@@ -16,21 +16,22 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Bundle" : "0.02"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
          "requires" : {
-            "Perl::Critic::Policy::logicLAB::ProhibitShellDispatch" : 0,
-            "Perl::Critic::Policy::logicLAB::ProhibitUseLib" : 0,
-            "Perl::Critic::Policy::logicLAB::RequireVersionFormat" : 0
+            "Perl::Critic::Policy::logicLAB::ProhibitShellDispatch" : "0",
+            "Perl::Critic::Policy::logicLAB::ProhibitUseLib" : "0",
+            "Perl::Critic::Policy::logicLAB::RequireSheBang" : "0",
+            "Perl::Critic::Policy::logicLAB::RequireVersionFormat" : "0"
          }
       }
    },
    "provides" : {
       "Perl::Critic::logicLAB" : {
          "file" : "lib/Perl/Critic/logicLAB.pm",
-         "version" : "0.04"
+         "version" : "0.07"
       }
    },
    "release_status" : "stable",
@@ -49,5 +50,5 @@
       "x_ProjectSite" : "http://logicLAB.jira.com/browse/PCLL",
       "x_ProjectWiki" : "http://logiclab.jira.com/wiki/display/PCLL/Home"
    },
-   "version" : "0.04"
+   "version" : "0.07"
 }
