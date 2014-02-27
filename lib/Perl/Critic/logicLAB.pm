@@ -1,17 +1,15 @@
 package Perl::Critic::logicLAB;
 
-# $Id: logicLAB.pm 8176 2013-08-01 12:55:50Z jonasbn $
+# $Id$
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
 
 use strict;
+use warnings;
+use 5.6.0;
 
-use vars qw{$VERSION};
-
-BEGIN {
-    $VERSION = '0.07';
-}
+our $VERSION = '0.08';
 
 1;
 
@@ -25,7 +23,7 @@ Perl::Critic::logicLAB - a set of Perl::Critic policies implemented and used by 
 
 =head1 VERSION
 
-This documentation describes version 0.05
+This documentation describes version 0.08
 
 =head1 SYNOPSIS
 
@@ -63,11 +61,15 @@ by policy level, using the same schema
 
 =item * L<Perl::Critic::Policy::logicLAB::RequireVersionFormat|Perl::Critic::Policy::logicLAB::RequireVersionFormat>
 
+=item * L<Perl::Critic::Policy::logicLAB::RequirePackageNamePattern|Perl::Critic::Policy::logicLAB::RequirePackageNamePattern>
+
+=item * L<Perl::Critic::Policy::logicLAB::RequireParamsValidate|Perl::Critic::Policy::logicLAB::RequireParamsValidate>
+
 =back
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2010-2011 Jonas B. Nielsen (jonasbn), All Rights Reserved.
+Copyright 2010-2014 Jonas B. Nielsen (jonasbn), All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

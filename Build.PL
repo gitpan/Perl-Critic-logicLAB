@@ -1,6 +1,6 @@
 # Build.PL for Perl::Critic::logicLAB
 
-# $Id: Build.PL 8176 2013-08-01 12:55:50Z jonasbn $
+# $Id$
 
 use strict;
 use warnings;
@@ -15,17 +15,19 @@ my $build = Module::Build->new(
     create_makefile_pl => 'traditional',
     create_readme => 1,
     requires      => {
-        'Perl::Critic::Policy::logicLAB::ProhibitUseLib'        => '0',
-        'Perl::Critic::Policy::logicLAB::RequireVersionFormat'  => '0',
-        'Perl::Critic::Policy::logicLAB::ProhibitShellDispatch' => '0',
-        'Perl::Critic::Policy::logicLAB::RequireSheBang'        => '0',
+        'Perl::Critic::Policy::logicLAB::ProhibitUseLib'            => '0',
+        'Perl::Critic::Policy::logicLAB::RequireVersionFormat'      => '0',
+        'Perl::Critic::Policy::logicLAB::ProhibitShellDispatch'     => '0',
+        'Perl::Critic::Policy::logicLAB::RequireSheBang'            => '0',
+        'Perl::Critic::Policy::logicLAB::RequirePackageNamePattern' => '0',
+        'perl'                                                      => '5.6.0',
     },
     meta_merge => {
         resources => {
             homepage => 'http://logiclab.jira.com/wiki/display/PCLL/Home',
             bugtracker =>
                 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-logicLAB',
-            repository => 'http://logicLAB.jira.com/svn/PCLL',
+            repository => 'https://github.com/jonasbn/pcll',
             ProjectChangelog =>
                 'http://logiclab.jira.com/browse/PCLL#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel',
             ProjectSite => 'http://logicLAB.jira.com/browse/PCLL',

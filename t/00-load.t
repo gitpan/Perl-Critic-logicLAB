@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-# $Id: 00-load.t 7228 2010-09-11 06:57:40Z jonasbn $
+# $Id$
 
 #Courtesy of Ovid
 #Ref: http://use.perl.org/~Ovid/journal/37797
