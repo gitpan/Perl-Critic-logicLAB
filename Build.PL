@@ -1,12 +1,10 @@
 # Build.PL for Perl::Critic::logicLAB
 
-# $Id$
-
 use strict;
 use warnings;
 use Module::Build;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 my $build = Module::Build->new(
     dist_author   => 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>',
@@ -20,6 +18,8 @@ my $build = Module::Build->new(
         'Perl::Critic::Policy::logicLAB::ProhibitShellDispatch'     => '0',
         'Perl::Critic::Policy::logicLAB::RequireSheBang'            => '0',
         'Perl::Critic::Policy::logicLAB::RequirePackageNamePattern' => '0',
+        'Perl::Critic::Policy::logicLAB::RequireParamsValidate'     => '0',
+        'Perl::Critic::Policy::logicLAB::ModuleBlacklist'           => '0',
         'perl'                                                      => '5.6.0',
     },
     meta_merge => {

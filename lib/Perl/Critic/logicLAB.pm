@@ -1,15 +1,13 @@
 package Perl::Critic::logicLAB;
 
-# $Id$
-
 # Courtesy of Adam Kennedy
-# http://search.cpan.org/dist/Task/lib/Task.pm
+# https://metacpan.org/pod/Task
 
 use strict;
 use warnings;
 use 5.6.0;
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 1;
 
@@ -19,11 +17,11 @@ __END__
 
 =head1 NAME
 
-Perl::Critic::logicLAB - a set of Perl::Critic policies implemented and used by logicLAB
+Perl::Critic::logicLAB - Perl::Critic policies implemented and used by logicLAB
 
 =head1 VERSION
 
-This documentation describes version 0.08
+This documentation describes version 0.09
 
 =head1 SYNOPSIS
 
@@ -64,6 +62,16 @@ by policy level, using the same schema
 =item * L<Perl::Critic::Policy::logicLAB::RequirePackageNamePattern|Perl::Critic::Policy::logicLAB::RequirePackageNamePattern>
 
 =item * L<Perl::Critic::Policy::logicLAB::RequireParamsValidate|Perl::Critic::Policy::logicLAB::RequireParamsValidate>
+
+=item * L<Perl::Critic::Policy::logicLAB::ModuleBlacklist|Perl::Critic::Policy::logicLAB::ModuleBlacklist>
+
+=back
+
+=head1 AUTHOR
+
+=over
+
+=item * Jonas B. Nielsen, jonasbn C<< <jonasbn@cpan.org> >>
 
 =back
 
